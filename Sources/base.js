@@ -2,9 +2,9 @@ let a = ["pizza","code", "snake", "apple", "app", "tea", "tree", "binary", "zip"
 let b_words = ["with", "without", "application", "runner", "executer", "parsed", "gamified", "generates"]
 
 function name(){
-	let value1 = Math.floor(Math.random() * a.length());
-	let value2 = Math.floor(Math.random() * b_words.length());
-	let value3 = Math.floor(Math.random() * a.length());
+	let value1 = Math.floor(Math.random() * a.length);
+	let value2 = Math.floor(Math.random() * b_words.length);
+	let value3 = Math.floor(Math.random() * a.length);
 
 	let b = a[value1];
 	let c = b_words[value2];
